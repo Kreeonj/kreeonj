@@ -1,0 +1,17 @@
+.main-block__404{
+    padding: 50px 0;
+    display: flex;  
+    gap: 50px;
+    align-items: center;
+}
+.main-block__404__title{
+    font-size: 72px;
+}
+.main-block__404__text__link{
+    color: rgb(60, 60, 211);
+}
+@media(max-width:425px){
+    .main-block__404{
+        flex-direction: column;
+    }
+}
