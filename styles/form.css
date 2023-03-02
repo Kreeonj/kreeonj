@@ -1,0 +1,37 @@
+.form-block{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form-block__title{
+    font-size: 24px;
+}
+.form-block_form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.input-textarea{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.input-submit{
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 150px;
+    border: 1px solid black;
+    background: transparent;
+    transition: 0.2s;
+}
+.input-submit:hover{
+    color: white;
+    background-color: black;
+}
